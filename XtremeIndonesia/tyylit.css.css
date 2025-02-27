@@ -1,36 +1,37 @@
-
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Arial, sans-serif;
+    font-family: 'Roboto Slab', serif;
+    <link href='http://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
 }
+h1 {font-weight:100;font-size:44px;}
+h2 {font-weight:300;font-size:32px;}
+h3 {font-weight:700;font-size:18px;}
 
-/* Body Styling */
+p {font-weight:400;font-size:14px;}
+
 body {
-    background-color: #f4f4f4;
-    color: #333;
+    background-color: #ffffff;
+    color: #000000;
     line-height: 1.6;
 }
 
-/* Container */
 .container {
     width: 90%;
     max-width: 1200px;
     margin: 0 auto;
 }
 
-/* Header */
 header {
-    background: #333;
+    background: #222222;
     color: #fff;
     padding: 20px;
     text-align: center;
 }
 
-/* Navigation */
 nav {
-    background: #444;
+    background: #414141;
     padding: 10px 0;
     text-align: center;
 }
@@ -40,13 +41,16 @@ nav a {
     text-decoration: none;
     padding: 10px 15px;
     display: inline-block;
+    box-sizing: border-box;
+    border: 1px solid #414141;
 }
 
 nav a:hover {
-    background: #555;
+    background: #d80101;
+    border: 1px solid #000;
+    box-sizing: border-box;
 }
 
-/* Main Content */
 main {
     padding: 20px;
     background: #fff;
@@ -54,11 +58,18 @@ main {
     border-radius: 5px;
 }
 
-/* Footer */
 footer {
     text-align: center;
     padding: 20px;
-    background: #222;
+    background: #222222;
     color: #fff;
     margin-top: 20px;
+}
+body {
+    background-color: #f0f0f0; 
+}
+.scaled-image {
+    width: 600px; 
+    height: auto; 
+    max-width: 100%;
 }
