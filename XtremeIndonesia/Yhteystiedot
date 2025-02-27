@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>XtremeIndo-Yhteystiedot</title>
+    <link rel="stylesheet" href="tyylit.css">
+    <link href='http://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+</head> 
+<body>
+    <div class = "container"></div>
+    <h3><header>
+        Yhteystiedot
+    </header></h3>
+    <nav>
+            <a href="#">Kotisivu</a>
+            <a href="#">Lajit & Hinnasto</a>
+            <a href="#">Yhteystiedot</a>
+
+    </nav>
+    <main>
+        <p>Jalan Doktor Ide Anak Agung Gde Agung, Jl. Kuningan Barat Raya No.1, RT.5/RW.2, Kuningan, Kuningan Bar., Kecamatan Setiabudi, Kota Jakarta Selatan,  Daerah Khusus Ibukota Jakarta 12950, Indonesia </p>
+
+        </main>
+    <footer>
+        <p>&copy; 2025 XtremeIndo</p>
+        </footer>
+</body>
+</html>
